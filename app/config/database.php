@@ -55,9 +55,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => '127.0.0.1',
-			'database'  => 'wardrobe',
-			'username'  => 'demo',
-			'password'  => 'demo',
+			'database'  => 'blog',
+			'username'  => 'blog',
+			'password'  => 'blogPa$$word',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
@@ -65,10 +65,10 @@ return array(
 
 		'pgsql' => array(
 			'driver'   => 'pgsql',
-			'host'     => 'localhost',
-			'database' => 'database',
-			'username' => 'root',
-			'password' => '',
+			'host'     => '127.0.0.1',
+			'database' => 'blog',
+			'username' => 'blog',
+			'password' => 'blogPa$$word',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 			'schema'   => 'public',
